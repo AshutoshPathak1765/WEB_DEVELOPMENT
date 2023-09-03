@@ -39,7 +39,6 @@ searchBtn.addEventListener('click',searchItems);
 function searchItems() {
     const searchItem=searchBar.value;
     let newListItems=listItems;
-    
     newListItems=newListItems.map(item => {
         const itemVal=item.innerText;
         console.log(itemVal);
